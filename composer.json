@@ -22,6 +22,7 @@
         "drupal/core-project-message": "^8.9",
         "drupal/core-recommended": "^8.9",
         "drupal/gin": "^3.0",
+        "drupal/pathauto": "^1.0",
         "drush/drush": "^10.0"
     },
     "conflict": {
