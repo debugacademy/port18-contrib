@@ -1,0 +1,21 @@
+uuid: 16215310-66ae-4805-867d-667bb9360ca9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rank
+    - node.type.testimonial
+  module:
+    - options
+id: node.testimonial.field_rank
+field_name: field_rank
+entity_type: node
+bundle: testimonial
+label: Rank
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

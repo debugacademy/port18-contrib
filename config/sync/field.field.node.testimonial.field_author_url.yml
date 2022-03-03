@@ -1,0 +1,23 @@
+uuid: 36ec5db1-03a7-4bb6-ac39-5f4b5df7f8e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_author_url
+    - node.type.testimonial
+  module:
+    - link
+id: node.testimonial.field_author_url
+field_name: field_author_url
+entity_type: node
+bundle: testimonial
+label: 'Author URL'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

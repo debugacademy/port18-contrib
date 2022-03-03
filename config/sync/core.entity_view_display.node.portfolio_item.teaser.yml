@@ -1,0 +1,38 @@
+uuid: f140f879-f8cf-443c-8430-05873825cd94
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.portfolio_item.body
+    - field.field.node.portfolio_item.field_header_image
+    - field.field.node.portfolio_item.field_portfolio_item_s_url
+    - field.field.node.portfolio_item.field_previe
+    - field.field.node.portfolio_item.field_rank
+    - node.type.portfolio_item
+  module:
+    - text
+    - user
+id: node.portfolio_item.teaser
+targetEntityType: node
+bundle: portfolio_item
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_header_image: true
+  field_portfolio_item_s_url: true
+  field_previe: true
+  field_rank: true

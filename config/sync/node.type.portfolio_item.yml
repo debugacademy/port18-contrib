@@ -1,0 +1,17 @@
+uuid: 2320f032-5517-40e0-9800-3687650bf67d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Portfolio Item'
+type: portfolio_item
+description: 'A sample of work for my portfolio.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

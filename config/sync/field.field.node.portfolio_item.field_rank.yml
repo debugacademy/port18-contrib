@@ -1,0 +1,23 @@
+uuid: ab8f2b98-0d98-409e-be00-af17e071e6f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rank
+    - node.type.portfolio_item
+  module:
+    - options
+id: node.portfolio_item.field_rank
+field_name: field_rank
+entity_type: node
+bundle: portfolio_item
+label: Rank
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 2
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

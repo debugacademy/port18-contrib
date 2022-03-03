@@ -1,0 +1,30 @@
+uuid: e28562a2-72fe-49a4-8ffa-1cb90fbdb4c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_rank
+field_name: field_rank
+entity_type: node
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 1
+      label: Low
+    -
+      value: 2
+      label: Default
+    -
+      value: 3
+      label: Featured
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
