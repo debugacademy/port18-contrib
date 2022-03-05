@@ -1,0 +1,17 @@
+uuid: 77adb8c2-7b76-4e62-8dbe-a8d65d7a1057
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: FAQ
+type: faq
+description: ''
+help: 'A frequently asked question about my work, website, or services.'
+new_revision: true
+preview_mode: 1
+display_submitted: true
