@@ -1,0 +1,22 @@
+uuid: cf1658c1-6afc-4bc2-bc5c-4563afefe6f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - port_theme
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: port_theme_content
+theme: port_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

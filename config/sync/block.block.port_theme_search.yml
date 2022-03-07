@@ -1,0 +1,23 @@
+uuid: 8c215d02-5469-43f5-b20c-b270afcada4c
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - port_theme
+_core:
+  default_config_hash: Q-4EcGAsu26ICu4ejEz0uE1zv4akpiaOsizxgZfAmEw
+id: port_theme_search
+theme: port_theme
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: node_search
+visibility: {  }
