@@ -4,4 +4,5 @@ description: Theme based on classy
 core: 8.x
 base theme: classy
 libraries:
-  - port_theme/global-styling
+  - 'port_theme/global-styling'
+  - 'port_theme/fonts'
