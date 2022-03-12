@@ -806,3 +806,15 @@ if (file_exists($app_root . '/' . $site_path . '/settings.ddev.php')) {
  * its location.
  */
 $settings['config_sync_directory'] = '../config/sync';
+
+
+/**
+ * Include the Pantheon-specific settings file.
+ *
+ * n.b. The settings.pantheon.php file makes some changes
+ *      that affect all envrionments that this site
+ *      exists in.  Always include this file, even in
+ *      a local development environment, to insure that
+ *      the site settings remain consistent.
+ */
+include __DIR__ . "/settings.pantheon.php";
