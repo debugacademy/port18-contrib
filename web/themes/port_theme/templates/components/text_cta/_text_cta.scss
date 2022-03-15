@@ -1,31 +1,35 @@
 .text-call-to-action {
   width: 100%;
-  height: 100px;
+  opacity: 0.8;
   padding: 36px 0;
-  background-color: #946866;
+  min-height: 100px;
+  background-image: url("/themes/port_theme/templates/components/text_cta/_text_cta_image.jpg");
   border-bottom: 8px solid #b98671;
 
   .text-call-to-action-heading {
     float: left;
     width: 60%;
     color: white;
-    font-weight: 900;
-    margin-left: 40px;
     font-size: 40px;
+    font-weight: 900;
+    margin-top: auto;
+    margin-left: 40px;
+    margin-bottom: auto;
     text-transform: uppercase;
   }
 
   .text-call-to-action-button {
     width: 130px;
     float: right;
-    height: 35px;
-    padding: 5px;
+    height: 34px;
+    padding-top: 9px;
+    margin-top: 40px;
     font-weight: 900;
     color: #946866;
     font-size: medium;
-    margin-top: 40px;
-    margin-right: 120px;
     text-align: center;
+    //padding-bottom: 8px;
+    margin-right: 120px;
     text-decoration: none;
     background-color: white;
 
