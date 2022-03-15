@@ -1,5 +1,42 @@
 @charset "UTF-8";
 /* Base styles */
+.text-call-to-action {
+  width: 100%;
+  height: 100px;
+  padding: 36px 0;
+  background-color: #946866;
+  border-bottom: 8px solid #b98671;
+}
+.text-call-to-action .text-call-to-action-heading {
+  float: left;
+  width: 60%;
+  color: white;
+  font-weight: 900;
+  margin-left: 40px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.text-call-to-action .text-call-to-action-button {
+  width: 130px;
+  float: right;
+  height: 35px;
+  padding: 5px;
+  font-weight: 900;
+  color: #946866;
+  font-size: medium;
+  margin-top: 40px;
+  margin-right: 120px;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+}
+.text-call-to-action .text-call-to-action-button:hover {
+  color: white;
+  border-bottom: 3px solid white;
+  text-decoration: underline;
+  background-color: #946866;
+}
+
 h1,
 h2,
 h3 {
