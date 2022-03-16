@@ -4,7 +4,6 @@
   width: 100%;
   padding: 36px 0;
   min-height: 100px;
-  background-size: auto auto;
   background-color: #946866;
   background-image: url("/themes/port_theme/templates/components/text_cta/_text_cta_image1.jpg");
   border-bottom: 8px solid #b98671;
@@ -33,11 +32,11 @@
   margin-right: 120px;
   text-decoration: none;
   background-color: white;
+  font-family: "Dela Gothic One", sans-serif;
 }
 .text-call-to-action .text-call-to-action-button:hover {
   color: white;
   border-bottom: 3px solid white;
-  text-decoration: underline;
   background-color: #946866;
 }
 
