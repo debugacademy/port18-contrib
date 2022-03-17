@@ -3,8 +3,10 @@
 .text-call-to-action {
   width: 100%;
   padding: 36px 0;
-  min-height: 100px;
+  opacity: 1;
+  min-height: 120px;
   background-color: #946866;
+  z-index: -2;
   background-image: url("/themes/port_theme/templates/components/text_cta/_text_cta_image1.jpg");
   border-bottom: 8px solid #b98671;
 }
@@ -15,7 +17,7 @@
   font-size: 40px;
   font-weight: 900;
   margin-top: auto;
-  margin-left: 40px;
+  margin-left: 70px;
   margin-bottom: auto;
   text-transform: uppercase;
 }
@@ -37,7 +39,7 @@
 .text-call-to-action .text-call-to-action-button:hover {
   color: white;
   border-bottom: 3px solid white;
-  background-color: #946866;
+  background-color: transparent;
 }
 
 h1,
