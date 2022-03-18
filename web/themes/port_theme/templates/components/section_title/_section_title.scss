@@ -1,0 +1,46 @@
+.section-list {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    color: #596661;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-size: 50px;
+    line-height: 60px;
+
+    .secondary-highlight {
+      color: #757575;
+    }
+  }
+
+  mg {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+
+  a.sl {
+    color: #946866;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent transparent #946866;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Dela Gothic One';
+    text-transform: uppercase;
+    font-weight: bold;
+
+    &:hover {
+      color: #596661;
+      border-color: transparent transparent #596661;
+    }
+
+  }
+}
