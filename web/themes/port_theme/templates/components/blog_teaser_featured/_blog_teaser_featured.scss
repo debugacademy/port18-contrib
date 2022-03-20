@@ -1,0 +1,19 @@
+.blog-teaser-featured{
+    border-style: solid;
+    border-color: rgb(107, 45, 45);
+    display: flex;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 1342px;
+    margin:auto;
+
+    h3{
+    font-size: 40px;
+    color: rgb(107, 45, 45);
+    }
+    .background-image{
+        width: 35%;
+    }
+}
