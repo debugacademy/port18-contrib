@@ -1,4 +1,23 @@
 @charset "UTF-8";
+.blog-teaser-featured {
+  border-style: solid;
+  border-color: #6b2d2d;
+  display: flex;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 1342px;
+  margin: auto;
+}
+.blog-teaser-featured h3 {
+  font-size: 40px;
+  color: #6b2d2d;
+}
+.blog-teaser-featured .background-image {
+  width: 35%;
+}
+
 /* Base styles */
 h1,
 h2,
