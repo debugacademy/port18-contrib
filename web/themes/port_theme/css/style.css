@@ -8,7 +8,7 @@
   background-color: #757575;
 }
 .large-cta h2 {
-  color: #B1D9C7;
+  color: #B9D1C7;
   text-transform: uppercase;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -43,6 +43,7 @@
   padding-bottom: 80px;
 }
 .large-cta a.button {
+  font-family: "Dela Gothic One", sans-serif;
   margin-top: 24px;
   background-color: #E4E2BC;
   font-weight: 700;
