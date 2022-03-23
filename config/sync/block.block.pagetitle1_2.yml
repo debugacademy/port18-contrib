@@ -1,0 +1,25 @@
+uuid: 3ea64b49-9a48-48bd-aa79-ae814614adc9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:interior_page_title:60545267-2439-4b71-8660-4c0e6f238ac0'
+  module:
+    - block_content
+  theme:
+    - port_theme
+id: pagetitle1_2
+theme: port_theme
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'block_content:60545267-2439-4b71-8660-4c0e6f238ac0'
+settings:
+  id: 'block_content:60545267-2439-4b71-8660-4c0e6f238ac0'
+  label: 'Page Title1'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

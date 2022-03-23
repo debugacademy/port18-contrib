@@ -1,0 +1,8 @@
+uuid: 0e7e526a-5a74-49a4-9672-bce60647f865
+langcode: en
+status: true
+dependencies: {  }
+id: interior_page_title
+label: 'Interior page title'
+revision: 0
+description: 'Displays the title on every page except homepage.'

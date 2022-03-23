@@ -1,0 +1,22 @@
+uuid: 5591f431-785d-4869-a983-26cebd6d0a81
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.interior_page_title
+    - field.field.block_content.interior_page_title.body
+  module:
+    - text
+id: block_content.interior_page_title.default
+targetEntityType: block_content
+bundle: interior_page_title
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
