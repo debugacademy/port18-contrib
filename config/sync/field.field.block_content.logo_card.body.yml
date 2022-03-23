@@ -1,0 +1,23 @@
+uuid: 9c6c4aa3-48a5-4fb4-8a7e-53ba67ec1c09
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.logo_card
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.logo_card.body
+field_name: body
+entity_type: block_content
+bundle: logo_card
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

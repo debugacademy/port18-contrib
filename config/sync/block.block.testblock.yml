@@ -1,0 +1,33 @@
+uuid: 7683fb9b-31ef-4436-82c7-910092e7f46e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:logo_card:8181be5c-10d2-41d7-a293-54f5e513cd98'
+  module:
+    - block_content
+    - ctools
+  theme:
+    - port_theme
+id: testblock
+theme: port_theme
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:8181be5c-10d2-41d7-a293-54f5e513cd98'
+settings:
+  id: 'block_content:8181be5c-10d2-41d7-a293-54f5e513cd98'
+  label: 'test block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
