@@ -1,0 +1,53 @@
+.blog-teaser-featured {
+  border-style: solid;
+  border-color: #946866;
+  display: flex;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 1292px;
+  max-width: 100%;
+  margin: auto;
+  background-color: rgba(148, 104, 102, 0.15);
+  top: 0;
+  position: relative;
+  transition: top 0.4s ease-in-out;
+  &:hover {
+    top: -20px;
+    background-color: #946866;
+
+    h3,
+    .date,
+    p {
+      color: white;
+    }
+  }
+
+  h3 {
+    font-size: 18px;
+    color: #946866;
+    line-height: 23px;
+    text-transform: uppercase;
+    margin-top: 0px;
+  }
+  p {
+    margin-top: 5px;
+  }
+  .background-image {
+    width: 60%;
+  }
+  .blog-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 35%;
+    padding-left: 50px;
+  }
+  .date {
+    font-weight: bold;
+    font-size: 14px;
+    color: #596661;
+  }
+}
