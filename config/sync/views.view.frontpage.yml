@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.featured_teaser
     - core.entity_view_mode.node.rss
-    - core.entity_view_mode.node.teaser
   module:
     - node
     - user
@@ -200,7 +200,8 @@ display:
       row:
         type: 'entity:node'
         options:
-          view_mode: teaser
+          relationship: none
+          view_mode: featured_teaser
       sorts:
         sticky:
           admin_label: ''
