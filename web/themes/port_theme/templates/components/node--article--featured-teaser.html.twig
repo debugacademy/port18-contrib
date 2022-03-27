@@ -1,8 +1,11 @@
+{{ breakpoint() }}
+<div{{ attributes }}>{{ title_prefix }} {{ title_suffix }}
  {% include '@port_theme/components/blog_teaser_featured/_blog_teaser_featured.html.twig' with {
-      image: '/themes/port_theme/templates/components/blog_teaser_featured/blogtf.jpg', 
+      image: content.field_image.0, 
       image_alt:'image of project',
-      date: '07/15/2021',
+      date: node.created.value|date('m/d/Y'),
       title: label,
-      description: 'lorem ipsum surpedom ipsum lor dor ser filler text lo re dempsum lorem ipsum surpedom ipsum lor dor ser filler text lo re dempsum',
+      description: content.body.0,
      } 
 %}
+</div>
