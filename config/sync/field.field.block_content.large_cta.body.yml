@@ -1,0 +1,23 @@
+uuid: 13f7824e-853c-42a5-acae-7f2d3ee26b3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.large_cta
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.large_cta.body
+field_name: body
+entity_type: block_content
+bundle: large_cta
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

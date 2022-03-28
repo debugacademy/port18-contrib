@@ -1,0 +1,8 @@
+uuid: 1041b5df-88b1-4672-9fdf-3bfe4a1bc27a
+langcode: en
+status: true
+dependencies: {  }
+id: large_cta
+label: 'Large Call to Action'
+revision: 0
+description: ''
