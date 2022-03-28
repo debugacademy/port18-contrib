@@ -1,0 +1,27 @@
+.faq-component {
+  margin: 0 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: $mud;
+
+  summary {
+    font-family: $dela-gothic;
+    font-size: 24px;
+    line-height: 32px;
+    color: $ferns;
+    padding: 10px 0 20px 0;
+    margin: 20px 0 10px 0;
+    letter-spacing: 0.75px;
+
+    &::before {
+      content: "+ ";
+    }
+  }
+
+  &[open] {
+    summary::before {
+      content: "- ";
+    }
+  }
+}

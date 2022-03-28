@@ -1,0 +1,24 @@
+{% embed '@port_theme/components/faq/_faq.html.twig' with {
+    question: 'What is this?',
+    answer: '<p>It is a way to separate styling from Drupal logic</p>',
+} %}{% endembed %}
+
+{% embed '@port_theme/components/faq/_faq.html.twig' with {
+    question: 'Loaded State of the FAQ Item Heading',
+    answer: '<blockquote>It is a way to separate styling from Drupal logic</blockquote>',
+} %}{% endembed %}
+
+{% embed '@port_theme/components/faq/_faq.html.twig' with {
+    question: 'What is this?',
+    answer: '<ul><li>Bulleted List Style</li><li>Text - Arial - 18px / 36px - #757575</li><li>Bullet - Circle - #596661</li></ul>'
+} %}{% endembed %}
+
+{% embed '@port_theme/components/faq/_faq.html.twig' with {
+    question: 'Active State of the FAQ Item Heading',
+    answer: '<p>The active state of the FAQ Item description / paragraph copy. The FAQ description area should be a WYSIWYG field that allows users to not only write a sentence, but provide a bulleted list or quote when necessary.</p><ul><li>Bulleted List Style</li><li>Text - Arial - 18px / 36px - #757575</li><li>Bullet - Circle - #596661</li></ul>',
+} %}{% endembed %}
+
+{% embed '@port_theme/components/faq/_faq.html.twig' with {
+    question: 'Active State of the FAQ Item Heading',
+    answer: '<p>The active state of the FAQ Item description / paragraph copy. The FAQ description area should be a WYSIWYG field that allows users to not only write a sentence, but provide a bulleted list or quote when necessary.</p><blockquote>The FAQ description area should be a WYSIWYG field that allows users to not only write a sentence, but provide a bulleted list or quote when necessary.</blockquote><ul><li>Bulleted List Style</li><li>Text - Arial - 18px / 36px - #757575</li><li>Bullet - Circle - #596661</li></ul>',
+} %}{% endembed %}

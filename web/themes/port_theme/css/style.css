@@ -333,4 +333,27 @@ table td {
   }
 }
 
+.faq-component {
+  margin: 0 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: #946866;
+}
+.faq-component summary {
+  font-family: "Dela Gothic One", cursive;
+  font-size: 24px;
+  line-height: 32px;
+  color: #596661;
+  padding: 10px 0 20px 0;
+  margin: 20px 0 10px 0;
+  letter-spacing: 0.75px;
+}
+.faq-component summary::before {
+  content: "+ ";
+}
+.faq-component[open] summary::before {
+  content: "- ";
+}
+
 /*# sourceMappingURL=style.css.map */
