@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.large_cta
     - field.field.block_content.large_cta.body
+    - field.field.block_content.large_cta.field_heading_pt1
+    - field.field.block_content.large_cta.field_heading_pt2
     - field.field.block_content.large_cta.field_image
     - field.field.block_content.large_cta.field_url
     - image.style.thumbnail
@@ -26,6 +28,22 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
+    region: content
+  field_heading_pt1:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_heading_pt2:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   field_image:
     weight: 1

@@ -5,6 +5,8 @@ dependencies:
   config:
     - block_content.type.large_cta
     - field.field.block_content.large_cta.body
+    - field.field.block_content.large_cta.field_heading_pt1
+    - field.field.block_content.large_cta.field_heading_pt2
     - field.field.block_content.large_cta.field_image
     - field.field.block_content.large_cta.field_url
   module:
@@ -22,6 +24,22 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_heading_pt1:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_heading_pt2:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
   field_image:
     weight: 1
