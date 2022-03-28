@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Base styles */
 .blog-teaser-featured {
   border-style: solid;
   border-color: #946866;
@@ -151,7 +152,42 @@
   color: #e4e2bc;
 }
 
-/* Base styles */
+.logo-card {
+  background: #f0ece7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 0 30px 0;
+}
+.logo-card .wrapper {
+  text-align: center;
+  max-width: 250px;
+}
+.logo-card .wrapper .logo-image {
+  background: #946866;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.logo-card .wrapper .logo-image img {
+  width: 55px;
+}
+.logo-card .wrapper h3 {
+  color: #946866;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.logo-card .wrapper p {
+  margin-top: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 h1,
 h2,
 h3 {
