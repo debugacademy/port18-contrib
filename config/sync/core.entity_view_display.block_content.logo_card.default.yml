@@ -1,0 +1,33 @@
+uuid: 5579b291-499b-4816-9440-3e33a4f2ffd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.logo_card
+    - field.field.block_content.logo_card.body
+    - field.field.block_content.logo_card.field_image
+  module:
+    - image
+    - text
+id: block_content.logo_card.default
+targetEntityType: block_content
+bundle: logo_card
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }
