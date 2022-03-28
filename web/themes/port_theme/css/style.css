@@ -86,6 +86,71 @@
   border-color: transparent transparent #596661;
 }
 
+.large-cta {
+  position: relative;
+  min-height: 565px;
+  overflow: hidden;
+  text-align: center;
+  border-bottom: 8px solid #c2c1a6;
+  background-color: #757575;
+}
+.large-cta h2 {
+  color: #B9D1C7;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 50px;
+  line-height: 60px;
+}
+.large-cta h2 .heading-line-2 {
+  color: #FFFFFF;
+}
+.large-cta .body-text {
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.large-cta .background-image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.3;
+}
+.large-cta .overlay-content {
+  z-index: 2;
+  position: relative;
+  max-width: 800px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.large-cta a.button {
+  font-family: "Dela Gothic One", sans-serif;
+  margin-top: 24px;
+  background-color: #E4E2BC;
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 14px;
+  color: #596661;
+  padding: 12px 8px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #e4e2bc;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.large-cta a.button:hover {
+  border-color: transparent transparent #e4e2bc;
+  background-color: transparent;
+  color: #e4e2bc;
+}
+
 /* Base styles */
 h1,
 h2,
