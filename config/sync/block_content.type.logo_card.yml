@@ -1,0 +1,8 @@
+uuid: 6047074d-0d59-46ff-9b0b-82ff4ab5819d
+langcode: en
+status: true
+dependencies: {  }
+id: logo_card
+label: 'Logo Card'
+revision: 0
+description: 'An icon/logo with a heading and description text.'
