@@ -1,0 +1,27 @@
+.project-teaser {
+  padding: 80px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  column-gap: 30px;
+
+  h2 {
+    background-image: url("/themes/port_theme/templates/components/project_teaser/project_icon.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding-top: 40px;
+  }
+
+  .project-image-teaser img {
+    width: 100%;
+  }
+
+  .description {
+    margin-bottom: 35px;
+  }
+
+  @media all and (max-width: $breakpoint-medium) {
+    flex-direction: column-reverse;
+  }
+}
