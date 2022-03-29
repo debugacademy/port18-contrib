@@ -1,0 +1,46 @@
+.text-call-to-action {
+  width: 100%;
+  padding: 36px 0;
+  opacity: 1;
+  min-height: 120px;
+  background-color: #946866;
+  z-index: -2;
+  background-image: url("/themes/port_theme/templates/components/text_cta/_text_cta_image1.jpg");
+  border-bottom: 8px solid #b98671;
+
+
+  .text-call-to-action-heading {
+    float: left;
+    width: 60%;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: auto;
+    margin-left: 70px;
+    margin-bottom: auto;
+    text-transform: uppercase;
+  }
+
+  .text-call-to-action-button {
+    width: 130px;
+    float: right;
+    height: 34px;
+    padding-top: 9px;
+    margin-top: 40px;
+    font-weight: 900;
+    color: #946866;
+    font-size: medium;
+    text-align: center;
+    margin-right: 120px;
+    text-decoration: none;
+    background-color: white;
+    font-family: 'Dela Gothic One', sans-serif;
+
+    &:hover {
+      color: white;
+      border-bottom: 3px solid white;
+      background-color: transparent;
+    }
+  }
+
+}
