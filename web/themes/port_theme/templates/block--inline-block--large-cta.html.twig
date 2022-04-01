@@ -1,0 +1,17 @@
+<div{{attributes}}>
+	{{ title_prefix }}
+	{{ title_suffix }}
+	<!-- The styled component goes here -->
+	{% embed '@port_theme/components/large-cta/_large-cta.html.twig' with {
+    icon_url: "/themes/port_theme/templates/components/large-cta/icon.png",
+    heading_line_1: content.field_heading_pt1,
+    heading_line_2: content.field_heading_pt2,
+    body_text: content.body,
+    link_url: content.field_url,
+    link_text: content.field_url.0['#title'],
+    image_url:file_url(content.field_image['#items'].entity.uri.value),
+    image_alt_text: content.field_image.alt
+  } %}{% endembed %}
+
+
+</div>

@@ -27,7 +27,7 @@ content:
     region: content
   field_heading_pt1:
     weight: 3
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -35,7 +35,7 @@ content:
     region: content
   field_heading_pt2:
     weight: 4
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
