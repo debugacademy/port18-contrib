@@ -1,4 +1,5 @@
 @import "variables";
+@import "extends";
 @import "import";
 
 // Headers
@@ -159,4 +160,62 @@ table {
   }
 }
 
-@import "../templates/components/faq/_faq";
+// Buttons 
+.primary.button {
+  @extend %button-shared;
+  color: $white;
+  background-color: $mud;
+  border: 2px solid $mud;
+
+  &:hover {
+    background-color: transparent;
+    color: $mud;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+}
+
+.on-dark.dewdrop.button {
+  @extend %button-shared;
+  color: $ferns;
+  background-color: $dewdrop;
+  border: 2px solid $dewdrop;
+
+  &:hover {
+    background-color: transparent;
+    color: $dewdrop;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+}
+
+.on-dark.white.button {
+  @extend %button-shared;
+  color: $ferns;
+  background-color: $mud;
+  border: 2px solid $white;
+
+  &:hover {
+    background-color: transparent;
+    color: $white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+}
+
+.secondary.button {
+  @extend %button-shared;
+  padding-right: 0;
+  padding-left: 0;
+  color: $mud;
+  background-color: transparent;
+  border-bottom: 2px solid $mud;
+
+  &:hover {
+    color: $ferns;
+    border-bottom: 2px solid $ferns;
+  }
+}

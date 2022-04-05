@@ -1,5 +1,15 @@
 @charset "UTF-8";
 /* Base styles */
+.secondary.button, .on-dark.white.button, .on-dark.dewdrop.button, .primary.button {
+  padding: 12px 18px;
+  margin: 24px 0 0 0;
+  font-family: "Dela Gothic One", cursive;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .blog-teaser-featured {
   border-style: solid;
   border-color: #946866;
@@ -230,6 +240,55 @@
   background-color: transparent;
 }
 
+.faq-component {
+  margin: 0 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: #946866;
+}
+.faq-component summary {
+  font-family: "Dela Gothic One", cursive;
+  font-size: 24px;
+  line-height: 32px;
+  color: #596661;
+  padding: 10px 0 20px 0;
+  margin: 20px 0 10px 0;
+  letter-spacing: 0.75px;
+}
+.faq-component summary::before {
+  content: "+ ";
+}
+.faq-component[open] summary::before {
+  content: "- ";
+}
+
+.project-teaser {
+  padding: 80px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+.project-teaser h2 {
+  background-image: url("/themes/port_theme/templates/components/project_teaser/project_icon.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding-top: 40px;
+}
+.project-teaser .project-image-teaser img {
+  width: 100%;
+}
+.project-teaser .description {
+  margin-bottom: 35px;
+}
+@media all and (max-width: 768px) {
+  .project-teaser {
+    flex-direction: column-reverse;
+  }
+}
+
 h1,
 h2,
 h3 {
@@ -375,27 +434,55 @@ table td {
   }
 }
 
-.faq-component {
-  margin: 0 20px;
+.primary.button {
+  color: #fff;
+  background-color: #946866;
+  border: 2px solid #946866;
+}
+.primary.button:hover {
+  background-color: transparent;
+  color: #946866;
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom-color: #946866;
 }
-.faq-component summary {
-  font-family: "Dela Gothic One", cursive;
-  font-size: 24px;
-  line-height: 32px;
+
+.on-dark.dewdrop.button {
   color: #596661;
-  padding: 10px 0 20px 0;
-  margin: 20px 0 10px 0;
-  letter-spacing: 0.75px;
+  background-color: #e4e2bc;
+  border: 2px solid #e4e2bc;
 }
-.faq-component summary::before {
-  content: "+ ";
+.on-dark.dewdrop.button:hover {
+  background-color: transparent;
+  color: #e4e2bc;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
-.faq-component[open] summary::before {
-  content: "- ";
+
+.on-dark.white.button {
+  color: #596661;
+  background-color: #946866;
+  border: 2px solid #fff;
+}
+.on-dark.white.button:hover {
+  background-color: transparent;
+  color: #fff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.secondary.button {
+  padding-right: 0;
+  padding-left: 0;
+  color: #946866;
+  background-color: transparent;
+  border-bottom: 2px solid #946866;
+}
+.secondary.button:hover {
+  color: #596661;
+  border-bottom: 2px solid #596661;
 }
 
 /*# sourceMappingURL=style.css.map */
