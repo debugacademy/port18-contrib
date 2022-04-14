@@ -1,12 +1,10 @@
-uuid: a54ab43b-3e28-4db2-a7a5-bb7a70638018
+uuid: cc395c19-8d26-404b-9c37-72d6c66923a6
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.section_title
     - field.storage.block_content.field_title_2
-  module:
-    - text
 id: block_content.section_title.field_title_2
 field_name: field_title_2
 entity_type: block_content
@@ -18,4 +16,4 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text
+field_type: string
