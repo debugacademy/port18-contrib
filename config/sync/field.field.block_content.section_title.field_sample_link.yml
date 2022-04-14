@@ -1,0 +1,23 @@
+uuid: ecdf8978-0ccd-4937-a235-90d392e7152d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.section_title
+    - field.storage.block_content.field_sample_link
+  module:
+    - link
+id: block_content.section_title.field_sample_link
+field_name: field_sample_link
+entity_type: block_content
+bundle: section_title
+label: 'Sample Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link
