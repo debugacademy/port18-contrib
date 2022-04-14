@@ -1,0 +1,8 @@
+uuid: 9c870cfe-373b-4dbe-9507-8ca0052c9a9d
+langcode: en
+status: true
+dependencies: {  }
+id: text_call_to_action
+label: 'Text Call to Action'
+revision: 0
+description: 'call to action block'
