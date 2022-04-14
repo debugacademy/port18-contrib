@@ -1,0 +1,45 @@
+uuid: b5d8ed4c-96db-4bab-a694-d528ddffd01a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.section_title
+    - field.field.block_content.section_title.field_sample_link
+    - field.field.block_content.section_title.field_title_1
+    - field.field.block_content.section_title.field_title_2
+  module:
+    - link
+id: block_content.section_title.default
+targetEntityType: block_content
+bundle: section_title
+mode: default
+content:
+  field_sample_link:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 35
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_title_1:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_title_2:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }
