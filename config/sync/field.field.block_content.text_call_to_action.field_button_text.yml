@@ -11,7 +11,7 @@ id: block_content.text_call_to_action.field_button_text
 field_name: field_button_text
 entity_type: block_content
 bundle: text_call_to_action
-label: 'Button Text'
+label: 'Button '
 description: ''
 required: false
 translatable: false
@@ -19,7 +19,7 @@ default_value:
   -
     attributes: {  }
     uri: 'https://google.com'
-    title: 'Button Text'
+    title: ''
     options: {  }
 default_value_callback: ''
 settings:
