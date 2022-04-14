@@ -11,7 +11,7 @@ id: block_content.section_title.field_sample_link
 field_name: field_sample_link
 entity_type: block_content
 bundle: section_title
-label: 'Sample Link'
+label: Link
 description: ''
 required: false
 translatable: false
