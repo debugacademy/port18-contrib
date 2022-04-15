@@ -1,0 +1,42 @@
+uuid: 282d1bf7-f39f-461a-943e-766689188e71
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.statistic_card
+    - field.field.block_content.statistic_card.body
+    - field.field.block_content.statistic_card.field_subheading
+  module:
+    - text
+id: block_content.statistic_card.default
+targetEntityType: block_content
+bundle: statistic_card
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  field_subheading:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

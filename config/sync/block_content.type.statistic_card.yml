@@ -1,0 +1,8 @@
+uuid: a1830678-e973-4abb-976d-106952dccf9a
+langcode: en
+status: true
+dependencies: {  }
+id: statistic_card
+label: 'Statistic Card'
+revision: 0
+description: ''

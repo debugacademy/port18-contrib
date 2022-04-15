@@ -1,0 +1,21 @@
+uuid: 55dab4ad-09b1-4ff8-b55c-678af44cc4e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.statistic_card
+    - field.storage.block_content.field_subheading
+  module:
+    - text
+id: block_content.statistic_card.field_subheading
+field_name: field_subheading
+entity_type: block_content
+bundle: statistic_card
+label: Subheading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

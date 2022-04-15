@@ -1,0 +1,30 @@
+uuid: 69934270-910b-46ea-aa62-a5bb45f0a976
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.statistic_card
+    - field.field.block_content.statistic_card.body
+    - field.field.block_content.statistic_card.field_subheading
+  module:
+    - text
+id: block_content.statistic_card.default
+targetEntityType: block_content
+bundle: statistic_card
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_subheading:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }
