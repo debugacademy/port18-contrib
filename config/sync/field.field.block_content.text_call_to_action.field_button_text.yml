@@ -1,0 +1,28 @@
+uuid: 0a2759e8-6219-4dc7-a933-c819fa3cf1a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text_call_to_action
+    - field.storage.block_content.field_button_text
+  module:
+    - link
+id: block_content.text_call_to_action.field_button_text
+field_name: field_button_text
+entity_type: block_content
+bundle: text_call_to_action
+label: 'Button '
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'https://google.com'
+    title: ''
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link
