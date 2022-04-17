@@ -49,7 +49,6 @@
 	</header>
 
 	{{ page.primary_menu }}
-	{{ page.secondary_menu }}
 
 	{{ page.breadcrumb }}
 
@@ -66,25 +65,13 @@
 		</div>
 		{# /.layout-content #}
 
-		{% if page.sidebar_first %}
-			<aside class="layout-sidebar-first" role="complementary">
-				{{ page.sidebar_first }}
-			</aside>
-		{% endif %}
-
-		{% if page.sidebar_second %}
-			<aside class="layout-sidebar-second" role="complementary">
-				{{ page.sidebar_second }}
-			</aside>
-		{% endif %}
-
 	</main>
 
-	{% if page.footer %}
-		<footer role="contentinfo">
-			{{ page.footer }}
-		</footer>
-	{% endif %}
+	<footer role="contentinfo" id="footer">
+		{{ page.footer_first }}
+		{{ page.footer_second }}
+		{{ page.footer_third }}
+	</footer>
 
 </div>
 {# /.layout-container #}

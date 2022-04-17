@@ -1,0 +1,20 @@
+uuid: ed11882b-ca67-451b-9824-04f48ec640c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - port_core
+  theme:
+    - port_theme
+id: copyright
+theme: port_theme
+region: footer_first
+weight: -7
+provider: null
+plugin: port_core_copyright
+settings:
+  id: port_core_copyright
+  label: Copyright
+  provider: port_core
+  label_display: '0'
+visibility: {  }
