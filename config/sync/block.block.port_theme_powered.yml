@@ -10,8 +10,8 @@ _core:
   default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
 id: port_theme_powered
 theme: port_theme
-region: sidebar_first
-weight: 10
+region: footer_third
+weight: -7
 provider: null
 plugin: system_powered_by_block
 settings:

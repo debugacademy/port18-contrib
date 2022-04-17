@@ -8,8 +8,8 @@ dependencies:
     - port_theme
 id: copyright
 theme: port_theme
-region: footer
-weight: 0
+region: footer_first
+weight: -7
 provider: null
 plugin: port_core_copyright
 settings:
