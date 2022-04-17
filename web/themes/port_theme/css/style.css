@@ -623,4 +623,21 @@ table td {
   border-bottom: 2px solid #596661;
 }
 
+#footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f0ece7;
+  display: flex;
+  justify-content: space-around;
+}
+#footer h2 {
+  font-size: 23px;
+  line-height: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+#footer ul {
+  list-style: none;
+}
+
 /*# sourceMappingURL=style.css.map */

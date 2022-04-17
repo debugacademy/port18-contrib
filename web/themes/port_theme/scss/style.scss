@@ -219,3 +219,24 @@ table {
     border-bottom: 2px solid $ferns;
   }
 }
+
+
+// Footer
+#footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f0ece7;
+  display: flex;
+  justify-content: space-around;
+
+  h2 {
+    font-size: 23px;
+    line-height: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  ul {
+    list-style: none;
+  }
+}
