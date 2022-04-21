@@ -476,38 +476,37 @@ body {
   color: #757575;
 }
 
-a {
+main article a {
   color: #af5f5b;
   text-decoration: underline;
 }
-
-ol,
-ul {
+main article ol,
+main article ul {
   line-height: 36px;
   color: #757575;
   list-style: none;
 }
-
-ul li::before {
+main article ul li::before {
   content: "•";
   color: #596661;
   display: inline-block;
   width: 0.65em;
   margin-left: -0.5em;
 }
-
 @counter-style integer-leading-zero {
-  system: numeric;
-  symbols: "0" "1" "2" "3" "4" "5" "6" "7" "8" "9";
-  pad: 2 "0";
+  main article {
+    system: numeric;
+    symbols: "0" "1" "2" "3" "4" "5" "6" "7" "8" "9";
+    pad: 2 "0";
+  }
 }
-ol {
+main article ol {
   counter-reset: li;
 }
-ol li {
+main article ol li {
   counter-increment: li;
 }
-ol li::before {
+main article ol li::before {
   content: counter(li, integer-leading-zero);
   color: #596661;
   display: inline-block;
@@ -518,8 +517,7 @@ ol li::before {
   direction: rtl;
   font-family: "Dela Gothic One", cursive;
 }
-
-blockquote {
+main article blockquote {
   font-size: 22px;
   line-height: 32px;
   color: #596661;
@@ -527,8 +525,7 @@ blockquote {
   border-right: 4px solid #b9d1c7;
   padding: 0 22px;
 }
-
-table {
+main article table {
   border: none;
   border-collapse: collapse;
   width: 60%;
@@ -536,38 +533,38 @@ table {
   margin: auto;
   font-size: 16px;
 }
-table th,
-table td {
+main article table th,
+main article table td {
   border-left: 1px solid #757575;
   padding: 14px 18px;
   text-align: left;
 }
-table td:first-child {
+main article table td:first-child {
   border-left: none;
 }
-table thead {
+main article table thead {
   color: #fff;
   background-color: #596661;
 }
-table tbody tr:nth-child(even) {
+main article table tbody tr:nth-child(even) {
   background-color: #f0ece7;
 }
 @media all and (max-width: 768px) {
-  table {
+  main article table {
     width: 68%;
   }
-  table thead {
+  main article table thead {
     background-color: transparent;
     color: #596661;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
   }
-  table th,
-table td {
+  main article table th,
+main article table td {
     display: flex;
   }
-  table td:first-child {
+  main article table td:first-child {
     border-left: 1px solid #757575;
   }
 }
@@ -621,6 +618,55 @@ table td {
 .secondary.button:hover {
   color: #596661;
   border-bottom: 2px solid #596661;
+}
+
+header {
+  background-color: #f0ece7;
+  padding: 24px 0 4px 0;
+}
+header .wrapper {
+  width: 85%;
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+header .site-logo img {
+  width: 240px;
+}
+header .region-primary-menu {
+  flex: 0 1 33%;
+}
+header .region-primary-menu ul.menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  font-size: 14px;
+}
+header .region-primary-menu ul.menu li {
+  list-style: none;
+}
+header .region-primary-menu ul.menu li a {
+  font-family: "Dela Gothic One", cursive;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #596661;
+}
+header .region-primary-menu ul.menu li a:hover {
+  opacity: 0.76;
+}
+
+h1.page-title {
+  color: #fff;
+  background: linear-gradient(180deg, rgba(148, 104, 102, 0.79), rgba(148, 104, 102, 0.79)), url("/themes/port_theme/title_bkgrd.png");
+  background-color: #946866;
+  padding: 39px 0;
+  margin: 0;
+  text-align: center;
+  border-bottom: 8px solid #b98671;
+  background-attachment: scroll, fixed;
 }
 
 #footer {

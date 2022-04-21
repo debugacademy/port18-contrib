@@ -43,14 +43,12 @@
  */
 #}
 <div class="layout-container">
-
 	<header role="banner">
-		{{ page.header }}
+		<div class="wrapper">
+			{{ page.header }}
+			{{ page.primary_menu }}
+		</div>
 	</header>
-
-	{{ page.primary_menu }}
-
-	{{ page.breadcrumb }}
 
 	{{ page.highlighted }}
 
