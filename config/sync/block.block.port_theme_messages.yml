@@ -1,6 +1,6 @@
 uuid: 67c9f608-2bf0-458d-aa71-360d8dd955cc
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,7 +10,7 @@ _core:
   default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
 id: port_theme_messages
 theme: port_theme
-region: highlighted
+region: header
 weight: 0
 provider: null
 plugin: system_messages_block
