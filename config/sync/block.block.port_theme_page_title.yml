@@ -11,7 +11,7 @@ _core:
 id: port_theme_page_title
 theme: port_theme
 region: content
-weight: -50
+weight: -7
 provider: null
 plugin: page_title_block
 settings:
