@@ -2,6 +2,7 @@ name: Port theme
 type: theme
 description: Theme based on classy
 core: 8.x
+core_version_requirement: ^8 || ^9
 base theme: classy
 libraries:
   - 'port_theme/global-styling'

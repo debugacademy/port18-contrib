@@ -14,13 +14,13 @@ bundle: text_call_to_action
 mode: default
 content:
   field_button_text:
+    type: link_default
     weight: 26
+    region: content
     settings:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
-    type: link_default
-    region: content
   info:
     type: string_textfield
     weight: 0

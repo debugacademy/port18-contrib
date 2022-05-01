@@ -21,14 +21,14 @@ bundle: testimonial
 mode: default
 content:
   body:
-    label: hidden
     type: text_default
-    weight: 101
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 101
     region: content
   field_author_url:
-    weight: 104
+    type: link
     label: above
     settings:
       trim_length: 80
@@ -37,35 +37,35 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    type: link
+    weight: 104
     region: content
   field_previe:
-    weight: 102
+    type: image
     label: above
     settings:
-      image_style: ''
       image_link: ''
+      image_style: ''
     third_party_settings: {  }
-    type: image
+    weight: 102
     region: content
   field_rank:
-    weight: 105
+    type: list_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: list_default
+    weight: 105
     region: content
   field_testimonial_author:
-    weight: 103
+    type: string
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 103
     region: content
   links:
-    weight: 100
     settings: {  }
     third_party_settings: {  }
+    weight: 100
     region: content
 hidden: {  }
