@@ -24,7 +24,6 @@
         "drupal/core-recommended": "^9.3",
         "drupal/gin": "^3.0",
         "drupal/pathauto": "^1.0",
-        "drupal/upgrade_status": "^3.14",
         "drush/drush": "^10.0"
     },
     "conflict": {
