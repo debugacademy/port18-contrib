@@ -14,17 +14,17 @@ bundle: statistic_card
 mode: default
 content:
   body:
-    label: hidden
     type: text_default
-    weight: 0
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
     region: content
   field_subheading:
-    weight: 1
+    type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 1
     region: content
 hidden: {  }

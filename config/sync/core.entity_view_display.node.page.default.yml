@@ -4,46 +4,49 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.layout_builder__layout
     - node.type.page
   module:
     - layout_builder
+    - layout_discovery
     - text
     - user
 third_party_settings:
   layout_builder:
-    allow_custom: true
     enabled: true
+    allow_custom: true
     sections:
       -
         layout_id: layout_onecol
         layout_settings:
           label: ''
+          context_mapping: {  }
         components:
           5d0b6375-2ee4-46d1-a4bc-137ec1474f7e:
             uuid: 5d0b6375-2ee4-46d1-a4bc-137ec1474f7e
             region: content
             configuration:
+              id: 'field_block:node:page:body'
               label_display: '0'
               context_mapping:
                 entity: layout_builder.entity
-              id: 'field_block:node:page:body'
               formatter:
-                label: hidden
                 type: text_default
+                label: hidden
                 settings: {  }
                 third_party_settings: {  }
-            additional: {  }
             weight: 0
+            additional: {  }
           ead25f4b-3578-4d83-abd9-dd65e845dcb3:
             uuid: ead25f4b-3578-4d83-abd9-dd65e845dcb3
             region: content
             configuration:
+              id: 'extra_field_block:node:page:links'
               label_display: '0'
               context_mapping:
                 entity: layout_builder.entity
-              id: 'extra_field_block:node:page:links'
-            additional: {  }
             weight: 1
+            additional: {  }
         third_party_settings: {  }
 _core:
   default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
@@ -53,16 +56,16 @@ bundle: page
 mode: default
 content:
   body:
-    label: hidden
     type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
     weight: 100
     region: content
+  links:
     settings: {  }
     third_party_settings: {  }
-  links:
     weight: 101
     region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   layout_builder__layout: true

@@ -15,28 +15,28 @@ bundle: section_title
 mode: default
 content:
   field_sample_link:
+    type: link_default
     weight: 2
+    region: content
     settings:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
-    type: link_default
-    region: content
   field_title_1:
+    type: string_textfield
     weight: 26
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
   field_title_2:
+    type: string_textfield
     weight: 27
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
 hidden:
   info: true
