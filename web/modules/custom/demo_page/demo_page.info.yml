@@ -4,3 +4,4 @@ description: 'Provides a simple page at /demo .'
 package: Debug Academy
 version: VERSION
 core: 8.x
+core_version_requirement: ^8 || ^9
