@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - ctools
+    - node
   theme:
     - port_theme
 _core:
@@ -11,7 +11,7 @@ _core:
 id: port_theme_page_title
 theme: port_theme
 region: content
-weight: -7
+weight: -6
 provider: null
 plugin: page_title_block
 settings:
