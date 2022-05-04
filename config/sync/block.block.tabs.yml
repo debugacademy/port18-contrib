@@ -1,0 +1,20 @@
+uuid: 52539a29-6faf-452b-8d10-ec57c043de7e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - port_theme
+id: tabs
+theme: port_theme
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }
