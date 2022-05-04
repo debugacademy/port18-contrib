@@ -22,7 +22,8 @@ class CopyrightBlock extends BlockBase
   public function build()
   {
     $build['content'] = [
-      '#markup' => date("Y"),
+      '#theme' => 'copyright',
+      '#year' => date("Y"),
     ];
     return $build;
   }
