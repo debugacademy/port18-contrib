@@ -27,29 +27,17 @@ content:
     settings:
       trim_length: 600
     third_party_settings: {  }
-    weight: 0
+    weight: 1
     region: content
   field_image:
-    type: image
+    type: image_url
     label: hidden
     settings:
-      image_link: content
       image_style: medium
     third_party_settings: {  }
-    weight: -1
-    region: content
-  field_tags:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 10
-    region: content
-  links:
-    weight: 100
+    weight: 0
     region: content
 hidden:
   comment: true
-  field_image: true
   field_tags: true
+  links: true

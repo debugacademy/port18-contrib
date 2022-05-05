@@ -1,0 +1,23 @@
+{%
+  set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+    'clearfix',
+  ]
+%}
+<article{{attributes.addClass(classes)}}>
+	{{ title_prefix }}
+	{{ title_suffix }}
+	<!-- The component will be placed here -->
+
+	{% embed '@port_theme/components/blog_teaser/_blog_teaser.html.twig' with {
+        image_1: content.field_image[0],
+        date: node.created.value|date("m/d/Y"),
+        title_1: label,
+        description_1: content.body,
+} %}{% endembed %}
+</article>
