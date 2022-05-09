@@ -1,0 +1,11 @@
+<div{{ attributes }}>
+{{ title_prefix }}
+{{ title_suffix }}
+  {% include '@port_theme/components/section_title/_section_title.html.twig' with {
+      img_url: "/themes/port_theme/templates/components/section_title/section_title.png",
+      title_pt_1: content.field_title_1.0,
+      title_pt_2: content.field_title_2.0,
+      optional_link: content.field_sample_link[0]['#url'],
+      link_text: content.field_sample_link[0]['#title'],
+     } %}
+</div>
