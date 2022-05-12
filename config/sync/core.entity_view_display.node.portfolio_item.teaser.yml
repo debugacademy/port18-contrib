@@ -11,6 +11,8 @@ dependencies:
     - field.field.node.portfolio_item.field_rank
     - node.type.portfolio_item
   module:
+    - image
+    - link
     - text
     - user
 id: node.portfolio_item.teaser
@@ -22,17 +24,35 @@ content:
     type: text_summary_or_trimmed
     label: hidden
     settings:
-      trim_length: 600
+      trim_length: 300
     third_party_settings: {  }
-    weight: 101
+    weight: 0
+    region: content
+  field_portfolio_item_s_url:
+    type: link
+    label: hidden
+    settings:
+      trim_length: null
+      url_only: true
+      url_plain: true
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_previe:
+    type: image_url
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    weight: 1
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 3
     region: content
 hidden:
   field_header_image: true
-  field_portfolio_item_s_url: true
-  field_previe: true
   field_rank: true
