@@ -1,0 +1,11 @@
+<div{{attributes}}>
+	{{ title_prefix }}
+	{{ title_suffix }}
+
+	<!-- The styled component goes here -->
+	{% embed '@port_theme/components/logo_card/_logo_card.html.twig' with {
+        logo_img_src: content.field_image[0],
+        heading: label,
+        description: content.body
+    } %}{% endembed %}
+</div>
