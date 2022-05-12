@@ -1,0 +1,31 @@
+{%
+  set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+    'clearfix',
+  ]
+%}
+
+
+<pre>
+{{ dump(_context|keys) }}
+</pre>
+
+<article{{attributes.addClass(classes)}}>
+	{{ title_prefix }}
+	{{ title_suffix }}
+	<!-- The component will be placed here -->
+	{% include '@port_theme/components/project_teaser/_project_teaser.html.twig' with {
+    title: label,
+    description:  content.body.0,
+    img_src: content.field_previe.0,
+    image_alt_text: 'Image',
+    link_text: 'Read More' ,
+    link_url: url,
+} %}
+
+</article>
