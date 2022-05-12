@@ -3,14 +3,25 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.node.page.default
     - filter.format.basic_html
+    - node.type.article
+    - node.type.faq
+    - node.type.page
+    - node.type.portfolio_item
+    - node.type.testimonial
   module:
+    - block
     - comment
     - contact
+    - contextual
     - filter
+    - layout_builder
+    - node
     - search
     - shortcut
     - system
+    - toolbar
 _core:
   default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
 id: authenticated
@@ -20,9 +31,45 @@ is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
+  - 'access content overview'
+  - 'access contextual links'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'access toolbar'
+  - 'administer blocks'
+  - 'administer menu'
+  - 'configure all page node layout overrides'
+  - 'configure any layout'
+  - 'configure editable page node layout overrides'
+  - 'create and edit custom blocks'
+  - 'create article content'
+  - 'create faq content'
+  - 'create page content'
+  - 'create portfolio_item content'
+  - 'create testimonial content'
+  - 'delete any article content'
+  - 'delete any faq content'
+  - 'delete any page content'
+  - 'delete any portfolio_item content'
+  - 'delete any testimonial content'
+  - 'delete own article content'
+  - 'delete own faq content'
+  - 'delete own page content'
+  - 'delete own portfolio_item content'
+  - 'delete own testimonial content'
+  - 'edit any article content'
+  - 'edit any faq content'
+  - 'edit any page content'
+  - 'edit any portfolio_item content'
+  - 'edit any testimonial content'
+  - 'edit own article content'
+  - 'edit own faq content'
+  - 'edit own page content'
+  - 'edit own portfolio_item content'
+  - 'edit own testimonial content'
+  - 'link to any page'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
+  - 'view own unpublished content'
