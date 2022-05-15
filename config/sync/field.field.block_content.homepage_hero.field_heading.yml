@@ -1,0 +1,19 @@
+uuid: 2fa411bc-1919-47ce-b9ba-5813e682421e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.homepage_hero
+    - field.storage.block_content.field_heading
+id: block_content.homepage_hero.field_heading
+field_name: field_heading
+entity_type: block_content
+bundle: homepage_hero
+label: Heading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
