@@ -334,7 +334,7 @@
   color: white;
 }
 .blog-card .back-img {
-  max-width: 100%;
+  width: 100%;
 }
 .blog-card .blog-title {
   text-transform: uppercase;
