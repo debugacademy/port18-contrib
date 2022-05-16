@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.featured_teaser
-    - core.entity_view_mode.node.teaser
     - node.type.portfolio_item
   module:
     - node
@@ -178,7 +177,7 @@ display:
         type: 'entity:node'
         options:
           relationship: none
-          view_mode: teaser
+          view_mode: featured_teaser
       query:
         type: views_query
         options:
@@ -201,40 +200,10 @@ display:
       tags: {  }
   block_1:
     id: block_1
-    display_title: Block
+    display_title: 'Featured Teaser'
     display_plugin: block
     position: 1
     display_options:
-      display_extenders: {  }
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
-  block_2:
-    id: block_2
-    display_title: 'Featured Teaser'
-    display_plugin: block
-    position: 2
-    display_options:
-      style:
-        type: default
-        options:
-          grouping: {  }
-          row_class: ''
-          default_row_class: true
-          uses_fields: false
-      row:
-        type: 'entity:node'
-        options:
-          relationship: none
-          view_mode: featured_teaser
-      defaults:
-        style: false
-        row: false
       display_description: ''
       display_extenders: {  }
     cache_metadata:
