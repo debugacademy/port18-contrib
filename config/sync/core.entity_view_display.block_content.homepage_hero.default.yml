@@ -1,17 +1,26 @@
-uuid: d950f98c-a73f-4a56-a329-7769829c0432
+uuid: 8c76cf58-bfc2-4a38-a3e3-f6af1062fc37
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.homepage_hero
+    - field.field.block_content.homepage_hero.body
     - field.field.block_content.homepage_hero.field_about_me
   module:
     - link
+    - text
 id: block_content.homepage_hero.default
 targetEntityType: block_content
 bundle: homepage_hero
 mode: default
 content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
   field_about_me:
     type: link
     label: above
