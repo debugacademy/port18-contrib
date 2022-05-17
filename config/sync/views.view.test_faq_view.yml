@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - node.type.faq
+    - system.menu.main
   module:
     - node
     - user
@@ -171,6 +172,15 @@ display:
     display_options:
       display_extenders: {  }
       path: faq
+      menu:
+        type: normal
+        title: FAQ
+        description: ''
+        weight: 0
+        expanded: false
+        menu_name: main
+        parent: ''
+        context: '0'
     cache_metadata:
       max-age: -1
       contexts:
