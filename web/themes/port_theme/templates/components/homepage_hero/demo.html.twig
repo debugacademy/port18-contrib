@@ -1,7 +1,9 @@
-{% include '@port_theme/components/homepage_hero/_homepage_hero.html.twig' with {
-      heading_line_1: 'Hardwork Meets',
-      heading_line_2: 'Innovation',
-      description: 'Welcome to the portfolio website of Port Folio.',
-      link_url: '#',
-      link_text: 'About Me'
-     } %}
+{% embed '@port_theme/components/homepage_hero/_homepage_hero.html.twig' with {
+    heading_line_1: "Hardwork Meets",
+    heading_line_2: "Innovation",
+    body_text: "Welcome to the portfolio website of Port Folio.",
+    link_url: "#",
+    link_text: "About Me",
+    image_url: "/themes/port_theme/templates/components/homepage_hero/squiggly-background-image.png",
+    image_alt_text: "project cover image",
+} %}{% endembed %}
