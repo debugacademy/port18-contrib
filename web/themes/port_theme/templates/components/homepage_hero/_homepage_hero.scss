@@ -1,3 +1,12 @@
 .large-cta.homepage-hero {
+  background-color: $mud;
 
+  h2 {
+    color: $white;
+  }
+
+  a.button {
+    color: $mud;
+    background-color: $white;
+  }
 }
