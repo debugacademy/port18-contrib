@@ -438,6 +438,12 @@
 .large-cta.homepage-hero a.button {
   color: #946866;
   background-color: #fff;
+  border-color: transparent;
+}
+.large-cta.homepage-hero a.button:hover {
+  color: #fff;
+  background-color: transparent;
+  border-bottom-color: white;
 }
 
 h1,
