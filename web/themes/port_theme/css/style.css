@@ -429,6 +429,23 @@
   border-bottom: 3px solid #E4E2bc;
 }
 
+
+.large-cta.homepage-hero {
+  background-color: #946866;
+}
+.large-cta.homepage-hero h2 {
+  color: #fff;
+}
+.large-cta.homepage-hero a.button {
+  color: #946866;
+  background-color: #fff;
+  border-color: transparent;
+}
+.large-cta.homepage-hero a.button:hover {
+  color: #fff;
+  background-color: transparent;
+  border-bottom-color: white;
+
 .interior-page-title {
   width: 100%;
   min-height: 120px;
