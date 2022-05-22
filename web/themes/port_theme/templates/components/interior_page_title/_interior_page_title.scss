@@ -1,0 +1,24 @@
+.interior-page-title {
+  width: 100%;
+  min-height: 120px;
+  padding: 36px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: $mud;
+  background-image: url("/themes/port_theme/templates/components/interior_page_title/squiggly_bg.png");
+  border-bottom: 9px solid $apple;
+
+  h2 {
+    margin-top: 32px;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-family: 'Dela Gothic One', 'sans-serif';
+    color: $white;
+    font-size: 56px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+}
