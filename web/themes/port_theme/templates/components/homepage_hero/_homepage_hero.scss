@@ -1,0 +1,19 @@
+.large-cta.homepage-hero {
+  background-color: $mud;
+
+  h2 {
+    color: $white;
+  }
+
+  a.button {
+    color: $mud;
+    background-color: $white;
+    border-color: transparent;
+  }
+
+  a.button:hover {
+    color: $white;
+    background-color: transparent;
+    border-bottom-color: white;
+  }
+}
