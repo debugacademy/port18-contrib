@@ -1,0 +1,19 @@
+uuid: b0a1c7ba-8d0b-45c5-adc2-6df3165f0a9b
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - link
+id: block_content.field_about_me
+field_name: field_about_me
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
