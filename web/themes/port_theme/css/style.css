@@ -470,6 +470,9 @@
   text-transform: uppercase;
 }
 
+.view-blog-posts {
+  margin-bottom: 80px;
+}
 .view-blog-posts .view-content {
   display: flex;
   justify-content: center;
