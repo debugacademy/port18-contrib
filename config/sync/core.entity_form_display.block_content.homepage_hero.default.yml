@@ -1,29 +1,17 @@
-uuid: c71f8086-56a9-4638-b29c-50c9c6eda7bf
+uuid: df1a184b-161d-4ec9-9b28-f2ea5dab10ae
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.homepage_hero
-    - field.field.block_content.homepage_hero.body
     - field.field.block_content.homepage_hero.field_about_me
   module:
     - link
-    - text
 id: block_content.homepage_hero.default
 targetEntityType: block_content
 bundle: homepage_hero
 mode: default
 content:
-  body:
-    type: text_textarea_with_summary
-    weight: 26
-    region: content
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-      show_summary: false
-    third_party_settings: {  }
   field_about_me:
     type: link_default
     weight: 27
