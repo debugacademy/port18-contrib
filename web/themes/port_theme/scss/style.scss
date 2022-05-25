@@ -162,7 +162,7 @@ main article {
   }
 }
 
-// Buttons 
+// Buttons
 .primary.button {
   @extend %button-shared;
   color: $white;
@@ -226,7 +226,7 @@ main article {
 header {
   background-color: $pearl;
   padding: 24px 0 4px 0;
-  
+
   .wrapper {
     width: 85%;
     max-width: 1400px;
@@ -236,14 +236,14 @@ header {
     align-items: flex-start;
     justify-content: space-between;
   }
-  
+
   .site-logo img {
     width: 240px;
   }
   .region-primary-menu {
-    flex: 0 1 33%;
+    flex: 0 1 45%;
 
-    ul.menu {  
+    ul.menu {
       display: flex;
       justify-content: space-between;
       margin-top: 0;
@@ -251,7 +251,7 @@ header {
 
       li {
         list-style: none;
-        
+
         a {
           font-family: $dela-gothic;
           text-decoration: none;
@@ -297,8 +297,8 @@ h1.page-title {
       justify-content: center;
       align-items: center;
     }
-  
- 
+
+
   .menu{
     display: flex;
     flex-wrap: wrap;

@@ -691,7 +691,7 @@ header .site-logo img {
   width: 240px;
 }
 header .region-primary-menu {
-  flex: 0 1 33%;
+  flex: 0 1 45%;
 }
 header .region-primary-menu ul.menu {
   display: flex;
