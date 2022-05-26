@@ -1,0 +1,13 @@
+<div{{attributes}}>
+	{{ title_prefix }}
+	{{ title_suffix }}
+	{% embed '@port_theme/components/homepage_hero/_homepage_hero.html.twig' with {
+    heading_line: content.field_heading,
+    body_text: content.body,
+    link_url: content.field_homepage_link[0]["#url"],
+    link_text: content.field_homepage_link[0]["#title"],
+    image_url: "/themes/port_theme/templates/components/homepage_hero/squiggly-background-image.png",
+    image_alt_text: "project cover image",
+} %}{% endembed %}
+
+</div>
