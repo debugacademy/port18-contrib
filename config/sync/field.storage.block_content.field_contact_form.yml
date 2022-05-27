@@ -1,0 +1,20 @@
+uuid: 4fdd42c2-ba48-418c-b259-a0025d5428f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - contact
+id: block_content.field_contact_form
+field_name: field_contact_form
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: contact_form
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
