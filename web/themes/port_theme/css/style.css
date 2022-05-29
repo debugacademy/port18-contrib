@@ -297,7 +297,7 @@
   text-align: center;
   padding-top: 48px;
   padding-bottom: 48px;
-  background-color: #f0ece7;
+  background-color: transparent;
 }
 .statistic-card .logo-circle {
   background-color: #b9d1c7;
@@ -479,6 +479,15 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.squiggly-background {
+  background-image: url("/themes/port_theme/templates/components/statistic_card/squiggly-background-image.png");
+}
+
+.basic-block-margin {
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 h1,

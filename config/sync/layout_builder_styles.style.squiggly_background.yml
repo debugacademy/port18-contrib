@@ -1,0 +1,11 @@
+uuid: 1d9b4086-6577-4a51-b66b-f3d6c21b7c6b
+langcode: en
+status: true
+dependencies: {  }
+id: squiggly_background
+label: 'Squiggly Background'
+classes: squiggly-background
+type: section
+block_restrictions: {  }
+layout_restrictions: {  }
+weight: 0

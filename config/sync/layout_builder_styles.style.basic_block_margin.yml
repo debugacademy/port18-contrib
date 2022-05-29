@@ -1,0 +1,12 @@
+uuid: 7082f1bf-3db4-4074-ad28-026e0fc645af
+langcode: en
+status: true
+dependencies: {  }
+id: basic_block_margin
+label: 'Basic Block Margin'
+classes: basic-block-margin
+type: section
+block_restrictions:
+  - 'inline_block:basic'
+layout_restrictions: {  }
+weight: 0
