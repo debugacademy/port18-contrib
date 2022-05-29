@@ -623,6 +623,17 @@ main article table td {
   }
 }
 
+.block-inline-blockbasic {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section-list {
+  padding-bottom: 0px;
+}
+
 .primary.button {
   color: #fff;
   background-color: #946866;
