@@ -485,6 +485,11 @@
   background-image: url("/themes/port_theme/templates/components/statistic_card/squiggly-background-image.png");
 }
 
+.basic-block-margin {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
 h1,
 h2,
 h3 {
