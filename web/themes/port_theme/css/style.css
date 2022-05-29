@@ -623,13 +623,9 @@ main article table td {
   }
 }
 
-.field--name-body {
-  margin: auto;
-  margin: 50px 60px;
-}
-
-.section-list {
-  padding-bottom: 0px;
+.block-inline-blockbasic {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .primary.button {
