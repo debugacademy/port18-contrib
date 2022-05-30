@@ -163,10 +163,9 @@ main article {
 }
 // About page
    .block-inline-blockbasic {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+      width: 85%;
+      margin: 100px auto;
+      max-width: 1480px;
    }
    .section-list {
      padding-bottom: 0px;
