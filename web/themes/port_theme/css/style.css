@@ -484,6 +484,10 @@
   flex-wrap: wrap;
 }
 
+.view-test-faq-view {
+  padding: 100px;
+}
+
 .squiggly-background {
   background-image: url("/themes/port_theme/templates/components/statistic_card/squiggly-background-image.png");
 }
