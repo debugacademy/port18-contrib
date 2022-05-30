@@ -221,6 +221,11 @@ display:
     display_plugin: block
     position: 2
     display_options:
+      pager:
+        type: some
+        options:
+          offset: 0
+          items_per_page: 2
       style:
         type: default
         options:
@@ -234,6 +239,7 @@ display:
           relationship: none
           view_mode: teaser
       defaults:
+        pager: false
         style: false
         row: false
       display_description: ''
