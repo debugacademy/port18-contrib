@@ -273,6 +273,8 @@
   align-items: flex-start;
   justify-content: space-between;
   column-gap: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .project-teaser h2 {
   background-image: url("/themes/port_theme/templates/components/project_teaser/project_icon.png");
@@ -284,8 +286,6 @@
 .project-teaser .project-image-teaser img {
   width: 633px;
   height: 422px;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 .project-teaser .description {
   margin-bottom: 35px;
