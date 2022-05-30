@@ -1,0 +1,30 @@
+uuid: 503cdc98-fd06-4e44-9f7a-e232cf952d05
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:contact_forms:acba1c88-edca-45f7-821e-fce5b0a08acb'
+  module:
+    - block_content
+    - system
+  theme:
+    - port_theme
+id: contact_form
+theme: port_theme
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:acba1c88-edca-45f7-821e-fce5b0a08acb'
+settings:
+  id: 'block_content:acba1c88-edca-45f7-821e-fce5b0a08acb'
+  label: 'Contact Form'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/33
