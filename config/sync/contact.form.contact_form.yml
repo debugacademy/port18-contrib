@@ -1,0 +1,21 @@
+uuid: 6f57747c-1360-4a41-ab28-d75a3ee3e861
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    submit_text: Submit
+    show_preview: false
+    disabled_form_message: 'This contact form has been disabled.'
+    maximum_submissions_user: 0
+    page_autoreply_format: plain_text
+id: contact_form
+label: 'Contact Form'
+recipients:
+  - eamil@example.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''
