@@ -646,6 +646,10 @@ main article table td {
   padding-bottom: 0px;
 }
 
+.view-content {
+  padding: 100px;
+}
+
 .primary.button {
   color: #fff;
   background-color: #946866;
