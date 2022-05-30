@@ -8,6 +8,11 @@
   background-image: url("/themes/port_theme/templates/components/text_cta/_text_cta_image1.jpg");
   border-bottom: 8px solid #b98671;
 
+  .inner-wrapper {
+      width: 1480px;
+      max-width: 100%;
+      margin: 0 auto;
+  }
 
   .text-call-to-action-heading {
     float: left;

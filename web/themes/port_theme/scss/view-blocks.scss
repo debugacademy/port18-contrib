@@ -1,5 +1,8 @@
 .view-blog-posts {
   margin-bottom: 80px;
+  width: 1380px;
+  max-width: 100%;
+  margin: 0 auto;
   .view-content {
     display: flex;
     justify-content: center;
@@ -9,5 +12,8 @@
 
 //Padding to faq view
   .view-test-faq-view {
-    padding: 100px;
+    padding: 100px 0px;
+    max-width: 1380px;
+    width: 100%;
+    margin: 0 auto;
   }
