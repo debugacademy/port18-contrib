@@ -223,7 +223,7 @@ display:
         type: some
         options:
           offset: 0
-          items_per_page: 3
+          items_per_page: 10
       defaults:
         pager: false
       display_description: ''
@@ -243,6 +243,11 @@ display:
     position: 2
     display_options:
       title: ''
+      pager:
+        type: some
+        options:
+          offset: 0
+          items_per_page: 1
       style:
         type: default
         options:
@@ -256,6 +261,7 @@ display:
           view_mode: featured_teaser
       defaults:
         title: false
+        pager: false
         style: false
         row: false
       display_description: ''
@@ -265,7 +271,6 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url.query_args
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
