@@ -510,6 +510,31 @@
   margin-right: 150px;
 }
 
+.contact-message-form {
+  padding: 32px 64px 64px;
+  color: #596661;
+}
+.contact-message-form .form-type-textfield .form-required {
+  display: block;
+}
+.contact-message-form .form-type-textfield .js-text-full {
+  width: 89%;
+  height: 36px;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+.contact-message-form .form-type-textfield .text-full {
+  width: 100%;
+  height: 50px;
+}
+.contact-message-form .button--primary {
+  background-color: #946866;
+  padding: 12px 18px;
+  text-transform: uppercase;
+  color: #FFF;
+  font-weight: 900;
+}
+
 h1,
 h2,
 h3 {
