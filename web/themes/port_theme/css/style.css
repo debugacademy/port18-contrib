@@ -297,7 +297,7 @@
   text-align: center;
   padding-top: 48px;
   padding-bottom: 48px;
-  background-color: #f0ece7;
+  background-color: transparent;
 }
 .statistic-card .logo-circle {
   background-color: #b9d1c7;
@@ -481,6 +481,15 @@
   flex-wrap: wrap;
 }
 
+.squiggly-background {
+  background-image: url("/themes/port_theme/templates/components/statistic_card/squiggly-background-image.png");
+}
+
+.basic-block-margin {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
 h1,
 h2,
 h3 {
@@ -621,6 +630,17 @@ main article table td {
   main article table td:first-child {
     border-left: 1px solid #757575;
   }
+}
+
+.block-inline-blockbasic {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section-list {
+  padding-bottom: 0px;
 }
 
 .primary.button {
