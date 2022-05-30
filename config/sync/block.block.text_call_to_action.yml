@@ -1,0 +1,30 @@
+uuid: 72c40dae-9fda-4386-9042-d66e43c9b93a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:text_call_to_action:09d5718c-fca0-499e-908d-3cda991f6206'
+  module:
+    - block_content
+    - system
+  theme:
+    - port_theme
+id: text_call_to_action
+theme: port_theme
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:09d5718c-fca0-499e-908d-3cda991f6206'
+settings:
+  id: 'block_content:09d5718c-fca0-499e-908d-3cda991f6206'
+  label: 'LOREM IPSUM CALL TO ACTION COPY'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /faq
