@@ -1,53 +1,43 @@
-.field--name-field-contact-form {
-    padding: 32px 64px 64px;
-    color: #596661;
-    margin: 0px auto;
-    max-width: 100%;
-    background-color: #F0ECE7;
-    //width: 2200px;
-    
-    .form-type-textfield {
-        width: 100%;
+ .contact-message-form {
+    padding: 50px;
+    background-color: white;
+    width: 1200px;
+    margin: auto;
+    margin-top: -290px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    #contact-message-form{
+       margin-top: 320px;
+    }
+    .form-item {
         .form-required {
             display: block;
             font-size: 20px;
-            
-        }
-        .form-text {
-            width: 100%;
-            height: 36px;
-            margin-bottom: 24px;
-            font-size: 16px;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        }
-    }   
-    .form-type-textarea {
+         }
+      }
+    .field--name-message {
         .form-required {
-            padding: 5px;
             font-size: 20px;
-        }
-        .form-textarea-wrapper {  
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        }
-    }     
-  
+         }
+      }
     .button--primary {
-            background-color: #946866;
-            padding: 12px 18px;
-            text-transform: uppercase;
-            color: #FFF;
-            font-weight: 900;
-            margin: 20px;
-            border-top: 2px transparent;
-            border-bottom: 2px transparent;
-            border-left: 2px transparent;
-            border-right: 2px transparent;
-            transition: all .3s linear;
-       
+        background-color: #946866;
+        padding: 12px 18px;
+        margin-top: 8px;
+        text-transform: uppercase;
+        color: #FFF;
+        font-weight: 900;
+        border-top: 2px transparent;
+        border-bottom: 2px transparent;
+        border-left: 2px transparent;
+        border-right: 2px transparent;
+        transition: all .3s linear;
+        
         &:hover {
             background-color: transparent;
             color: #946866;
             border-bottom: 2px solid #946866;
         }
+
     }
+    
 }
