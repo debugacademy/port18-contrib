@@ -510,7 +510,12 @@
   margin-right: 150px;
 }
 
-.contact-message-form {
+#block-contact-form {
+  background-color: #F0ECE7;
+  padding-top: 75px;
+  margin-top: 270px;
+}
+#block-contact-form .contact-message-form {
   padding: 50px;
   background-color: white;
   width: 1200px;
@@ -518,17 +523,17 @@
   margin-top: -290px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.contact-message-form #contact-message-form {
-  margin-top: 320px;
+#block-contact-form .contact-message-form .form-item input {
+  height: 50px;
 }
-.contact-message-form .form-item .form-required {
+#block-contact-form .contact-message-form .form-item .form-required {
   display: block;
   font-size: 20px;
 }
-.contact-message-form .field--name-message .form-required {
+#block-contact-form .contact-message-form .field--name-message .form-required {
   font-size: 20px;
 }
-.contact-message-form .button--primary {
+#block-contact-form .contact-message-form .button--primary {
   background-color: #946866;
   padding: 12px 18px;
   margin-top: 8px;
@@ -541,7 +546,7 @@
   border-right: 2px transparent;
   transition: all 0.3s linear;
 }
-.contact-message-form .button--primary:hover {
+#block-contact-form .contact-message-form .button--primary:hover {
   background-color: transparent;
   color: #946866;
   border-bottom: 2px solid #946866;
